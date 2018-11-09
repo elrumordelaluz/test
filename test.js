@@ -1,6 +1,6 @@
 import test from 'ava'
-import p from '.'
+import { date, version } from '.'
 
 test('Returns a string', async t => {
-  await t.true(typeof p() === 'string')
+  await t.true(typeof date() === 'string')
 })
