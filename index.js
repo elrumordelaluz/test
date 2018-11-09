@@ -1,2 +1,2 @@
 const moment = require('moment')
-console.log(moment().format('MM-DD-YYYY'))
+module.exports = moment().format('MM-DD-YYYY')
