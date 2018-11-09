@@ -1,2 +1,2 @@
-const moment = require('moment')
-module.exports = (format = 'MM-DD-YYYY') => moment().format(format)
+const format = require('date-fns/format')
+module.exports = (frm = 'MM-DD-YYYY') => format(new Date(), frm)
